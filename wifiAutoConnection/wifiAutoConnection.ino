@@ -24,7 +24,7 @@
 const char* server;
 
 
-
+int cs_SD = 15;
 WiFiMulti wifiMulti;
 
 void listDir(fs::FS &fs, const char * dirname, uint8_t levels){
@@ -169,7 +169,6 @@ void testFileIO(fs::FS &fs, const char * path){
     Serial.println("Failed to open file for writing");
     return;
   }
-
   size_t i;
   start = millis();
   for(i=0; i<2048; i++){

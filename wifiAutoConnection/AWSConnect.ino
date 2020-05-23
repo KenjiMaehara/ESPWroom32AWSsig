@@ -212,7 +212,7 @@ bool getSDCardData(fs::FS &fs, String path,int dataTypeNum) {
 
 void setup(){
   Serial.begin(115200);
-  if(!SD.begin()){
+  if(!SD.begin(cs_SD)){
     Serial.println("Card Mount Failed");
     return;
   }
