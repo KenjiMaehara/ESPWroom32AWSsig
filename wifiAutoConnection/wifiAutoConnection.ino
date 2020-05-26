@@ -216,5 +216,5 @@ bool wifiConfigWithSD(fs::FS &fs, String path) {
 void loop(){
   mqttLoop02();
   //Serial.printf("data check: %s\n", Client_cert);
-
+  delay(2000);
 }
