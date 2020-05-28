@@ -323,7 +323,7 @@ int value = 0;
 
 void connectAWSIoT() {
   while (!mqttClient.connected()) {
-    if (mqttClient.connect("ME20190207B")) {
+    if (mqttClient.connect(deviceID)) {
       Serial.println("Connected.");
       int qos = 0;
       mqttClient.subscribe(subTopic, qos);
