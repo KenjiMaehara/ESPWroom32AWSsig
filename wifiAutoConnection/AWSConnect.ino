@@ -273,9 +273,9 @@ void setup(){
   getSDCardData(SD, "/config", NUMSecCampany);
 
 
-  Serial.printf("data check Root_CA: %s\n", Root_CA);
-  Serial.printf("data check Client_private: %s\n", Client_private);
-  Serial.printf("data check Client_private: %s\n", Client_private);
+  //Serial.printf("data check Root_CA: %s\n", Root_CA);
+  //Serial.printf("data check Client_private: %s\n", Client_private);
+  //Serial.printf("data check Client_private: %s\n", Client_private);
 
   Serial.printf("deviceID: %s \n", deviceID);
   Serial.printf("aws server: %s \n", server);
