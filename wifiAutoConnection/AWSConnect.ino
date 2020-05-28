@@ -331,6 +331,7 @@ void connectAWSIoT() {
     } else {
       Serial.print("Failed. Error state=");
       Serial.print(mqttClient.state());
+      Serial.println("");
       // Wait 5 seconds before retrying
       delay(5000);
     }
