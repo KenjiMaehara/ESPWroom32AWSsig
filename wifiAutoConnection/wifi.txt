@@ -2,9 +2,9 @@
 # Please enter SSID and password separated by space
 
 # Home WiFi
-SSID password
+TP-Link_CACC 63281538
 
 # Office WiFi
-SSID1 password1 # 1st
+SSID1 password1  # 1st
 SSID2 password2 # 2nd
 SSID3 password3 # 3rd
