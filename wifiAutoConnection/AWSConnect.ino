@@ -442,6 +442,7 @@ void mqttLoop02() {
       }
 
       Serial.print("Publish message: ");
+      Serial.print(pubTopic);
       Serial.println(msg);
       mqttClient.publish(pubTopic, msg);
       //Serial.print("mqttLoop() area02: ");
